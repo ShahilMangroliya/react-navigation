@@ -515,7 +515,7 @@ export function TabBar<T extends Route>({
             },
           },
         ],
-        { useNativeDriver: true }
+        { useNativeDriver: false }
       ),
     [scrollAmount]
   );
