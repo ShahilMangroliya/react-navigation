@@ -80,7 +80,7 @@ export function TabBarIndicator<T extends Route>({
           toValue: 1,
           duration: 150,
           easing: Easing.in(Easing.linear),
-          useNativeDriver: true,
+          useNativeDriver: false,
         }).start();
       }
     };
